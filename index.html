@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <script defer src="./script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="top-container">
+          <div class="time">
+            <span class="hour">9</span>:<span class="minutes">41</span>
+          </div>
+
+          <div class="status">
+            <img class="img" src="./Images/status bar 2.png" />
+          </div>
+        </div>
+
+        <div class="cal-menu">
+          <h4 class="title">Calculator</h4>
+          <div class="drop-down" id="drop-down">
+            <img class="drp-img" src="./Images/dropdown.png" />
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li class="dropdown-item">
+                <img
+                  src="./Images/dollar-currency-sign_.png"
+                  alt="dollar currency"
+                /><span>Currency</span><span>Converter</span>
+              </li>
+              <li class="dropdown-item">
+                <img
+                  src="./Images/Scientific logo.png"
+                  alt="science logo"
+                />Scientific Mode
+              </li>
+              <li class="dropdown-item">
+                <img src="./Images/Lenght tape.png" src="tape" /><span
+                  >Length</span
+                >
+                <span>Converter</span>
+              </li>
+              <li class="dropdown-item">
+                <img src="./Images/Fraction.png" />Fraction
+              </li>
+            </ul>
+          </div>
+          <div class="reminder">
+            <img class="symbol" src="./Images/reminder icon.jpeg" />
+          </div>
+        </div>
+
+        <div class="output">0</div>
+
+        <div class="buttons-container">
+          <button class="btn function" id="ac">AC</button>
+          <button class="btn function" id="pm">+/-</button>
+          <button class="btn operator" id="percentage">%</button>
+          <button class="btn operator" id="division">÷</button>
+          <button class="btn" id="number-7">7</button>
+          <button class="btn" id="number-8">8</button>
+          <button class="btn" id="number-9">9</button>
+          <button class="btn operator" id="multiplication">x</button>
+          <button class="btn" id="number-4">4</button>
+          <button class="btn" id="number-5">5</button>
+          <button class="btn" id="number-6">6</button>
+          <button class="btn operator" id="substraction">-</button>
+          <button class="btn" id="number-1">1</button>
+          <button class="btn" id="number-2">2</button>
+          <button class="btn" id="number-3">3</button>
+          <button class="btn operator" id="addition">+</button>
+          <button class="btn zero-btn" id="zero">0</button>
+          <button class="btn" id="decimal">.</button>
+
+          <button class="btn" id="backspace">
+            <img src="./Images/backspace icon.png" alt="backspace" />
+          </button>
+          <button class="btn equal-btn" id="equal">=</button>
+        </div>
+        <div class="bottom"></div>
+      </div>
+    </div>
+  </body>
+</html>
